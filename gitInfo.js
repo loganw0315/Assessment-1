@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "Program that tracks changes in code projects allowing input from multiple individuals and groups with easy implementation into the main project."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,7 +19,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "Online cloud storage of code projects that can be communicated to through git"
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +35,7 @@
 */
 
 //CODE HERE
-
+const init = {description:"Initialization of the git repository",code:"git.init"}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +43,7 @@
 */
 
 //CODE HERE
-
+const clone = {description:"Create a clone of an existing repository",code:"git.clone"}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +51,7 @@
 */
 
 //CODE HERE
-
+const status = {description:"List status of files in the directory", code:"git.status"}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +59,7 @@
 */
 
 //CODE HERE
-
+const add = {description:"Stage specified files to be commited", code:"git.add"}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +67,7 @@
 */
 
 //CODE HERE
-
+const commit = {description:"Commit files added with git.add to local repository", code:"git.commit"}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +76,4 @@
 */
 
 //CODE HERE
+const push = {description:"Send files commited from local repository to remote repository", code:"git.push"}
